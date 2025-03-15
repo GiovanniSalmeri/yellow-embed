@@ -29,7 +29,7 @@ Multimedia services can be defined in `system/extension/embed.ini`. The file com
 
 If the content should normally occupy the full width of the page and have a fixed height in pixels, add this latter to the URL, separated by a comma.
 
-You should know that most third-party services collect personal data and use cookies. Prefer services that respect your privacy and that of your visitors'.
+You should know that most third-party services collect personal data and use cookies. Prefer services that respect your privacy and that of your visitors.
 
 ## Examples
 
