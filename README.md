@@ -22,12 +22,18 @@ The following arguments are available, all but the first two arguments are optio
 
 ## How to define a multimedia service
 
-Multimedia services can be defined in `system/extension/embed.ini`. The file comes with several types predefined, you can add more of them. Write the name of the service, followed by `:` and the URL of the content to embed. You can get the URL to use from the share command in the various services. The following placeholders are available:
+Multimedia services can be defined in `system/extension/embed.ini`. The file comes with several types predefined, you can add more of them in this format:
+
+    service: url
+
+You can infer the URL to use from the "embed" command in the various services, usually it is the `src` attribute of an `iframe` tag. Replace the specific source identifiers with the following placeholders:
 
 `@1`, `@2`...: first, second... part of the source identifier  
-`@lang`: language of the page  
+`@lang`: language to be shown  
 
-If the content should normally occupy the full width of the page and have a fixed height in pixels, add this latter to the URL, separated by a comma.
+If the content should normally occupy the full width of the page and have a fixed height in pixels, you can specify this latter like this:
+
+    service: url, height
 
 You should know that most third-party services collect personal data and use cookies. Prefer services that respect your privacy and that of your visitors.
 
