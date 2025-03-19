@@ -16,13 +16,13 @@ The following arguments are available, all but the first two arguments are optio
  
 `Service` = multimedia service  
 `Source` = multimedia source identifier; the source identifier is generally the last part of the link with which the multimedia file is accessed; if more parts are required (e.g. site and identifier), separate them with `/`  
-`Style` = multimedia style, e.g. `left`, `center`, `right`; ignored for services defined with full width and fixed height  
+`Style` = multimedia style, e.g. `flexible`, `left`, `center`, `right`  
 `Width` = multimedia width, pixel or percent  
 `Height` = multimedia height, pixel or percent  
 
 ## How to define a multimedia service
 
-Multimedia services can be defined in `system/extension/embed.ini`. The file comes with several types predefined, you can add more of them in this format:
+Multimedia services are defined in `system/extension/embed.ini`. The file comes with several services predefined, you can add more of them in this format:
 
     service: url
 
@@ -31,7 +31,7 @@ You can infer the URL to use from the "embed" command in the various services, u
 `@1`, `@2`...: first, second... part of the source identifier  
 `@lang`: language to be shown  
 
-If the content should normally occupy the full width of the page and have a fixed height in pixels, you can specify this latter like this:
+If the content should occupy the full width of the page and have a fixed height in pixels, specify this latter like this:
 
     service: url, height
 
