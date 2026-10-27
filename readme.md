@@ -1,8 +1,8 @@
-# Embed 0.9.1
+# Embed 1.0.0
 
-Embed third-party multimedia.
+Embed third-party multimedia. Developed by Giovanni Salmeri.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -70,8 +70,6 @@ The following setting can be configured in file `system/extensions/yellow-system
 
 ## Acknowledgements
 
-This extension is based on Youtube (now discontinued) by Anna Svensson. Thank you for the good work. This extension uses various multimedia sources. Thank you for the free services.
+This extension is based on Youtube (now discontinued) by Anna Svensson. Thank you for the good work.
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

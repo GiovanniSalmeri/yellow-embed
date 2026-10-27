@@ -2,7 +2,7 @@
 // Embed extension, https://github.com/GiovanniSalmeri/yellow-embed
 
 class YellowEmbed {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     public $yellow;         // access to API
     public $embedUrls;      // templates for embed URLs
 
